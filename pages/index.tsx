@@ -15,7 +15,7 @@ import 'aos/dist/aos.css';
 
 
 const page = () => {
-  const [nav, setNav] = useState(false)
+  const [Nav, setNav] = useState(false)
   const openNav = () => setNav(true);
   const closeNav = () => setNav(false);
 
@@ -52,7 +52,7 @@ const page = () => {
     <>
 
       {/* navbar */}
-      <MobileNav nav={nav} closeNav={closeNav} />
+      <MobileNav nav={Nav} closeNav={closeNav} />
       <Navbar openNav={openNav} />
       {/* hero section */}
       <Hero />
