@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import App from './_app';
-import Navbar from '@/components/Nav';
 import MobileNav from '@/components/MobileNav'
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -12,6 +11,7 @@ import Blog from '@/components/Blog';
 import Footer from '@/components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Navbar from '@/components/Nav';
 
 const Page = () => {
   const [Nav, setNav] = useState(false)
