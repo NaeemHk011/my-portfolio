@@ -24,20 +24,18 @@ const ClientReviews = ({ name, role, image }: Props) => {
                 <StarIcon className="w-[2rem] h-[2rem] text-yellow-500" />
                 <StarIcon className="w-[2rem] h-[2rem] text-yellow-500" />
                 <StarIcon className="w-[2rem] h-[2rem] text-yellow-500" />
-
             </div>
-            <h1 className='text-[25px] text-white mt-[1rem[]'>
+            <h1 className='text-[25px] text-white mt-[1rem]'>
                 {name}
             </h1>
             <p className='text-[18px] text-white opacity-75 mt-[0.5rem] mb-[1.4rem]'>
                 {role}
             </p>
-            <p className='text-[16px] text-white opacity-50 w-[90%] rd:w-[50%] mx-auto'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur consectetur excepturi sequi dolor perspiciatis, nostrum cupiditate maxime iste eaque dicta eius delectus. Perferendis minima, dolor ipsam totam vitae maiores?
-
+            <p className='text-[16px] text-white opacity-50 w-[90%] md:w-[50%] mx-auto'>
+                I have had the pleasure of working with {name} as a {role}, and I must say, their work ethic and dedication are truly commendable. They are highly skilled and always deliver exceptional results. I highly recommend them for any project or position.
             </p>
         </div>
     )
 }
 
-export default ClientReviews
+export default ClientReviews;
