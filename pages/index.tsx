@@ -14,7 +14,7 @@ import 'aos/dist/aos.css';
 import Navbar from '@/components/Navbar';
 
 const Page = () => {
-  const [Nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false)
   const openNav = () => setNav(true);
   const closeNav = () => setNav(false);
 
@@ -40,7 +40,7 @@ const Page = () => {
 
   return (
     <>
-      <MobileNav nav={Nav} closeNav={closeNav} />
+      <MobileNav nav={nav} closeNav={closeNav} />
       <Navbar openNav={openNav} />
       <Hero />
       <div className='relative z-[30]'>
