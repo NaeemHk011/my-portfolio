@@ -11,7 +11,7 @@ import Blog from '@/components/Blog';
 import Footer from '@/components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Navbar from '@/components/Nav';
+import Navbar from '@/components/Navbar';
 
 const Page = () => {
   const [Nav, setNav] = useState(false)
