@@ -1,7 +1,8 @@
 
 import React from 'react'
 import Image from 'next/image';
-import { ChatBubbleLeftRightIcon, UserCircleIcon } from '@heroicons/react/16/solid';
+import { ChatBubbleLeftRightIcon } from '@heroicons/react/20/solid';
+import { UserCircleIcon } from '@heroicons/react/20/solid';
 const Blog = () => {
     return (
         <div className='pt-[4rem] md:pt-[8rem] pb-[4rem] bg-[#02050a]'>
