@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import App from './_app';
-import Navbar from '@/components/nav';
+import Navbar from '@/components/Nav';
 import MobileNav from '@/components/MobileNav'
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -14,7 +14,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
-const page = () => {
+const Page = () => {
   const [Nav, setNav] = useState(false)
   const openNav = () => setNav(true);
   const closeNav = () => setNav(false);
@@ -74,4 +74,4 @@ const page = () => {
     </>
   )
 }
-export default page
+export default Page
